@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a01da0;
+}
+
+.registration{
+    width: 16rem;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.registrationTitle span{
+    font-size: 28px;
+    color: #a01da0;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.registrationInputs{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registrationInputs input{
+    margin: 0.2rem 0;
+    height: 30px;
+    padding: 0 5px;
+    border-bottom: 2px solid #a01da0!important;    border: 0;
+    background: none;
+    color: #a01da0;
+    font-weight: 600;
+}
+
+.registrationInputs input:focus{
+    outline: none;
+}
+.registrationInputs input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a01da0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.registrationBtn button{
+    width: 100px;
+    padding: 3px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #a01da0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
